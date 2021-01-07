@@ -1,0 +1,72 @@
+/*MOBILE VERSIE*/
+@media screen and (min-width: 368px) and (max-width:768px){
+    body{
+        display: block;
+        width: 100vw;
+        margin: 0;
+        height: auto;
+        overflow-x: hidden;
+    }
+    #ham-logo{
+        position: relative;
+        right: 36vw;
+        top: 2vh;
+        max-height: 10vh;
+        min-height: auto;
+        display: flex;
+        height: 12vh;
+    }
+
+    .item-logo{display: none;}
+
+    #item-nav{
+        
+        display: block;
+    }
+
+    #menu-beschrijving img{display: none;}
+
+
+    /*HAMBURGER MENU*/
+
+    #item-burger{
+        height: 16vh;
+        background-color: black;
+    }
+ 
+    
+    #item-streep details{
+        position: absolute;
+        right: 15vw;
+        top: 1vh;
+    }
+    
+    
+    #item-streep summary{
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    #item-streep h1{
+        font-size: 2.3rem;
+        position: absolute;
+        right: -12vw;
+        top: 2vh;
+        transition: 2s;
+        color: red;
+    }
+    
+    #item-streep h1:hover{
+        color: white;
+    }
+
+    
+    
+    #item-nav ul{list-style: none;position: relative;top:10vh;right: -13vw;}
+    #item-nav li{float:right;padding: 1vw 1vh;}
+    #item-nav a:hover{color: white!important;transition: 1s;}
+    #item-nav a{text-decoration: none; font-size:0.9rem;padding: 1.2vw;}
+    #item-nav a:active, a:visited, a:link{color: red!important;}
+    
+    #topbar{display: none;}
+}
