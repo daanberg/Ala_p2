@@ -6,7 +6,7 @@
 /*MOBILE VERSIE*/
 @media screen and (min-width: 360px) and (max-width:768px){
     body{
-        width: 100vw;
+        width: 152.8vw;
         margin: 0;
         height: auto;
     }
@@ -16,8 +16,8 @@
 
     #ham-logo{
         position: relative;
-        right: 36vw;
-        top: 2vh;
+        left: 8vw;
+        top: 2.5vh;
         max-height: 10vh;
         min-height: auto;
         display: flex;
@@ -46,8 +46,8 @@
     #item-streep h1{
         font-size: 2.3rem;
         position: absolute;
-        right: -12vw;
-        top: 2vh;
+        left: 44vw;
+        top: 0.5vh;
         transition: 2s;
         color: red;
     }
@@ -57,7 +57,7 @@
     #item-nav ul{
         list-style: none;
         position: relative;
-        top:10vh;
+        top: 8vh;
         right: -13vw;
     }
     #item-nav li{
@@ -79,4 +79,29 @@
     #topbar{
         display: none;
     }
+    #voet{
+        background-color: black;
+        padding: 1vw;
+        width: 151vw;
+    }
+
+    #voet h1{
+        text-align: center;
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #voet h1 a{
+      text-decoration: none;
+      transition: 0.5s;
+    }
+
+    #voet h1 a:visited, a:link, a:active{
+        color: red;
+    }
+
+    #voet h1 a:hover{
+        color: white;
+    }
+
 }
