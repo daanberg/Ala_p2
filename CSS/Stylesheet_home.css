@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 
-/*MOBILE VERSIE*/
+/*Galaxy s9*/
 @media screen and (min-width: 100px) and (max-width:768px){
     body{
         width: 152.8vw;
@@ -106,5 +106,54 @@
 
     .fotos-home img{
         width: 75vw;
+    }
+    #Tekst_Home{
+        font-size: 1.5rem;
+        text-align: center;
+        border: 1px solid black;
+    }
+    .container1 {
+        width: 75vw;
+        position: relative;
+        left: 75vw;
+        top: -28.5vh;
+        font-size: 1.7rem;
+        border: 2px solid black;
+        height: 23.5vh;
+        text-align: center;
+    }
+    .foto2{
+        position: absolute;
+        top: 102vh;
+        height: 25vh;
+    }
+    .container2{
+        width: 75vw;
+        position: relative;
+        left: 75vw;
+        top: -30.5vh;
+        font-size: 1.7rem;
+        border: 2px solid black;
+        height: 24.8vh;
+        text-align: center;
+    }
+    .foto3{
+        position: absolute;
+        top: 129vh;
+        height: 25vh;
+    }
+    .container3{
+        width: 75vw;
+        position: relative;
+        left: 75vw;
+        top: -32.2vh;
+        font-size: 1.7rem;
+        border: 2px solid black;
+        height: 24.8vh;
+        text-align: center;
+    }
+    #voet{
+        position: relative;
+        top: -35vh;
     }
 }
