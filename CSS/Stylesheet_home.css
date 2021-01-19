@@ -4,7 +4,7 @@
 
 
 /*MOBILE VERSIE*/
-@media screen and (min-width: 360px) and (max-width:768px){
+@media screen and (min-width: 100px) and (max-width:768px){
     body{
         width: 152.8vw;
         margin: 0;
@@ -104,4 +104,7 @@
         color: white;
     }
 
+    .fotos-home img{
+        width: 75vw;
+    }
 }
